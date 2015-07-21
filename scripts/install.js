@@ -27,7 +27,7 @@ var urlBase = process.env.npm_config_nwjs_urlbase || process.env.NWJS_URLBASE ||
 // Determine download url
 switch (process.platform) {
   case 'win32':
-    url = urlBase + version + '/nwjs-v' + version + '-win-' + 'ia32' +'.zip';
+    url = urlBase + 'v0.12.2' + '/nwjs-v' + 'v0.12.2' + '-win-' + 'ia32' +'.zip';
     break;
   case 'darwin':
     url = urlBase + version + '/nwjs-v' + version + '-osx-' + process.arch + '.zip';
